@@ -5,6 +5,7 @@
 [![PyPI](https://img.shields.io/pypi/v/pptx-lint)](https://pypi.org/project/pptx-lint/)
 [![Python](https://img.shields.io/pypi/pyversions/pptx-lint)](https://pypi.org/project/pptx-lint/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://github.com/LeppardWang/pptx-lint/actions/workflows/test.yml/badge.svg)](https://github.com/LeppardWang/pptx-lint/actions/workflows/test.yml)
 
 ---
 
@@ -93,7 +94,7 @@ for slide in results:
 ## Development
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/pptx-lint.git
+git clone https://github.com/LeppardWang/pptx-lint.git
 cd pptx-lint
 pip install -e ".[dev]"
 pytest
