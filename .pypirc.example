@@ -1,0 +1,8 @@
+[pypi]
+username = __token__
+password = pypi-你的token在这里替换掉这行文字
+
+# 使用方法：
+# 1. 复制此文件到 C:\Users\Administrator\.pypirc
+# 2. 将 password 替换为你的实际 API token
+# 3. 运行: twine upload dist/*
