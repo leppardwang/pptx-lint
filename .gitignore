@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Packaging
+*.whl
+pip-wheel-metadata/
+
+# Test artifacts
+.ppt
+*.pptx.ignore  # large test fixtures not tracked
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml
